@@ -18,6 +18,8 @@ public class RewardValueTests {
         assertEquals(milesValue, rewardValue.getMilesValue());
     }
 
+
+    //convert from cash to miles
     @Test
     void convert_from_cash_to_miles() {
         double cash = 100;
@@ -26,6 +28,8 @@ public class RewardValueTests {
         assertEquals (expectedResult,rewardValue.getMilesValue());
     }
 
+
+    //convert miles to cash
     @Test
     void convert_from_miles_to_cash() {
         int miles = 10000;
